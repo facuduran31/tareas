@@ -1,0 +1,52 @@
+.container-addtarea{
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+
+.input-agregar-tarea{
+    width: 215px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.boton-agregar-tarea{
+    padding: 10px;
+    margin: 0 0 0 10px;
+    border-radius: 5px;
+    background-color: rgb(37, 207, 150);
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.boton-agregar-tarea:hover{
+    background-color: rgb(23, 178, 93);
+    cursor: pointer;
+}
+
+.boton-agregar-tarea:active{
+    background-color: rgb(19, 99, 55);
+}
+
+.tarea-container{
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    width: 335px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.tarea-texto{
+    cursor: pointer;
+}
+
+.completado{
+    background-color: blueviolet;
+    text-decoration: line-through;
+}
+
+.delete{
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 20px;
+}
