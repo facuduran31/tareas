@@ -34,3 +34,82 @@ html,body{
   color: #fff;
   text-shadow: 1px 1px 1px rgb(47, 47, 47);
 }
+
+.container-addtarea{
+  text-align: center;
+  margin: 50px 0 20px 0;
+}
+
+.input-agregar-tarea{
+  width: 215px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.boton-agregar-tarea{
+  padding: 10px;
+  margin: 0 0 0 10px;
+  border-radius: 5px;
+  background-color: rgb(37, 207, 150);
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.boton-agregar-tarea:hover{
+  background-color: rgb(23, 178, 93);
+  cursor: pointer;
+}
+
+.boton-agregar-tarea:active{
+  background-color: rgb(19, 99, 55);
+}
+
+.tarea-container{
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+  width: 335px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.tarea-texto{
+  cursor: pointer;
+}
+
+.completado{
+  background-color: blueviolet;
+  text-decoration: line-through;
+}
+
+.delete{
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.container-principal::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.container-principal::-webkit-scrollbar:vertical {
+  width:10px;
+}
+
+.container-principal::-webkit-scrollbar-button:increment,.container-principal::-webkit-scrollbar-button {
+  display: none;
+} 
+
+.container-principal::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.container-principal::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+.container-principal::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}
