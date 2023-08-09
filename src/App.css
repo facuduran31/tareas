@@ -13,6 +13,7 @@ html,body{
 }
 
 .container-principal{
+  overflow: auto;
   width: 400px;
   min-height: 500px;
   border: 1px solid #fff;
@@ -22,6 +23,7 @@ html,body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-height: 800px;
 }
 
 .tareas{

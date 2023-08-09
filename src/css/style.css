@@ -50,3 +50,29 @@
     cursor: pointer;
     font-size: 20px;
 }
+
+.container-principal::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.container-principal::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.container-principal::-webkit-scrollbar-button:increment,.container-principal::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.container-principal::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.container-principal::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.container-principal::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
